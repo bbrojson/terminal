@@ -29,12 +29,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/@bbrojson/terminalv1"
+    "url": "https://github.com/@bbrojson/terminal"
   },
   "bugs": {
-    "url": "https://github.com/bbrojson/terminalv1/issues"
+    "url": "https://github.com/bbrojson/terminal/issues"
   },
-  "homepage": "https://github.com/bbrojson/terminalv1#readme",
+  "homepage": "https://github.com/bbrojson/terminal#readme",
   "peerDependencies": {
     "react": ">=18.2.0",
     "react-dom": ">=18.2.0",
