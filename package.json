@@ -1,0 +1,99 @@
+{
+  "name": "@bbrojson/terminal",
+  "description": "React terminal component.",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint './{src,app}/**/*.{ts,tsx}'",
+    "size": "size-limit",
+    "prepare": "npm run build",
+    "test": "jest",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "tsc": "tsc"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/bbrojson"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "author": "bbrojson",
+  "keywords": [
+    "react",
+    "typescript",
+    "terminal",
+    "console",
+    "component"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/@bbrojson/terminalv1"
+  },
+  "bugs": {
+    "url": "https://github.com/bbrojson/terminalv1/issues"
+  },
+  "homepage": "https://github.com/bbrojson/terminalv1#readme",
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "react-dom": ">=18.2.0",
+    "typescript": ">=3.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/preset-typescript": "^7.22.15",
+    "@rollup/plugin-commonjs": "^25.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@size-limit/preset-small-lib": "^8.2.6",
+    "@storybook/addon-essentials": "^7.4.3",
+    "@storybook/addon-interactions": "^7.4.3",
+    "@storybook/addon-links": "^7.4.3",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.4.3",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^7.4.3",
+    "@storybook/react-webpack5": "^7.4.3",
+    "@storybook/testing-library": "^0.2.1",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.5",
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "babel-jest": "^29.7.0",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-storybook": "^0.6.14",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "npm": "^9.8.1",
+    "postcss": "^8.4.27",
+    "prettier": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.27.2",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-generate-package-json": "^3.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "sass": "^1.68.0",
+    "sass-loader": "^13.3.2",
+    "size-limit": "^8.2.6",
+    "storybook": "^7.4.3",
+    "style-loader": "^3.3.3",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.3",
+    "tslib": "^2.6.0"
+  }
+}
